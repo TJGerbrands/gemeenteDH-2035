@@ -1,1 +1,145 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gemeente van 2035</title><link rel="stylesheet" href="index.css"></head><body><div id="ui"><h1>Gemeente van 2035</h1><input placeholder="Zoeken..."></div><svg id="world" viewBox="0 0 1600 900"><rect width="1600" height="140" fill="#6dc9ff"/><rect y="140" width="1600" height="60" fill="#efdca2"/><rect y="200" width="1600" height="80" fill="#b9d28a"/><circle cx="800" cy="520" r="80" fill="#f3c54e"/><rect x="760" y="430" width="80" height="90" fill="#d8a320"/><rect x="620" y="520" width="360" height="20" fill="#888"/><rect x="960" y="600" width="90" height="90" fill="#8be1ff"/><rect x="520" y="620" width="90" height="90" fill="#a8f0a0"/></svg></body></html>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemeente van 2035</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="branding">
+            <h1>Gemeente van 2035</h1>
+            <p>Gebouwd door bezoekers van het festival</p>
+        </div>
+
+        <div class="search-container">
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Zoek op project, maker of idee..."
+            >
+        </div>
+    </header>
+
+    <div id="hoverCard" class="hover-card hidden">
+        <h3 id="cardTitle"></h3>
+        <p id="cardMaker"></p>
+        <p id="cardDescription"></p>
+    </div>
+
+    <main id="viewport">
+
+        <svg id="world" viewBox="0 0 3200 1800">
+
+            <!-- Lucht -->
+            <rect
+                x="0"
+                y="0"
+                width="3200"
+                height="1800"
+                class="sky"
+            />
+
+            <!-- Noordzee -->
+            <rect
+                x="0"
+                y="0"
+                width="3200"
+                height="220"
+                class="sea"
+            />
+
+            <!-- Strand -->
+            <rect
+                x="0"
+                y="220"
+                width="3200"
+                height="100"
+                class="beach"
+            />
+
+            <!-- Duinen -->
+            <rect
+                x="0"
+                y="320"
+                width="3200"
+                height="180"
+                class="dunes"
+            />
+
+            <!-- Gemeentegebied -->
+            <rect
+                x="0"
+                y="500"
+                width="3200"
+                height="1300"
+                class="grass"
+            />
+
+            <!-- Hoofdplein -->
+            <circle
+                cx="1600"
+                cy="980"
+                r="200"
+                class="central-plaza"
+            />
+
+            <!-- Ringweg -->
+            <circle
+                cx="1600"
+                cy="980"
+                r="290"
+                class="ring-road"
+            />
+
+            <!-- Hoofdwegen -->
+            <line
+                x1="600"
+                y1="980"
+                x2="2600"
+                y2="980"
+                class="road"
+            />
+
+            <line
+                x1="1600"
+                y1="700"
+                x2="1600"
+                y2="1550"
+                class="road"
+            />
+
+            <!-- Fietspaden -->
+            <line
+                x1="600"
+                y1="930"
+                x2="2600"
+                y2="930"
+                class="bike-path"
+            />
+
+            <line
+                x1="1650"
+                y1="700"
+                x2="1650"
+                y2="1550"
+                class="bike-path"
+            />
+
+            <!-- Bomenlaag -->
+            <g id="treeLayer"></g>
+
+            <!-- Objectenlaag -->
+            <g id="objectLayer"></g>
+
+        </svg>
+
+    </main>
+
+    script.jsscript>
+
+</body>
+</html>
