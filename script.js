@@ -262,7 +262,8 @@ function buildObjectSvg(object) {
 
                 </g>
             `;
-case "bridge":
+    
+        case "bridge":
 
     return `
         <g>
@@ -302,7 +303,93 @@ case "bridge":
 
         </g>
     `;
+case "tower":
 
+    return `
+        <g>
+
+            <ellipse
+                class="isometric-shadow"
+                cx="0"
+                cy="65"
+                rx="35"
+                ry="12"
+            />
+
+            <rect
+                class="tower-main"
+                x="-15"
+                y="-90"
+                width="30"
+                height="150"
+            />
+
+            <circle
+                class="tower-main"
+                cx="0"
+                cy="-95"
+                r="28"
+            />
+
+        </g>
+    `;
+
+            case "market":
+
+    return `
+        <g>
+
+            <rect
+                class="market-main"
+                x="-65"
+                y="-30"
+                width="40"
+                height="30"
+            />
+
+            <rect
+                class="market-main"
+                x="-10"
+                y="-20"
+                width="40"
+                height="25"
+            />
+
+            <rect
+                class="market-main"
+                x="40"
+                y="-35"
+                width="35"
+                height="28"
+            />
+
+        </g>
+    `;
+
+            case "sport":
+
+    return `
+        <g>
+
+            <rect
+                class="sport-main"
+                x="-70"
+                y="-40"
+                width="140"
+                height="80"
+                rx="8"
+            />
+
+            <rect
+                fill="#ffffff"
+                x="-50"
+                y="-2"
+                width="100"
+                height="4"
+            />
+
+        </g>
+    `;
         default:
 
             return `
