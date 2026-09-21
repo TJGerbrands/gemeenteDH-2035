@@ -1,0 +1,35 @@
+[
+  {
+    "id": "stadhuis",
+    "naam": "Stadhuis van 2035",
+    "maker": "Gemeente",
+    "beschrijving": "Het hart van de gemeente",
+    "url": "projecten/stadhuis-2035/index.html",
+    "x": 1700,
+    "y": 950,
+    "landmark": true,
+    "color": "#f4c54f"
+  },
+  {
+    "id": "innovatie",
+    "naam": "Innovatiecampus 2035",
+    "maker": "Thijs-Jan",
+    "beschrijving": "Ontdekken en experimenteren met AI",
+    "url": "projecten/innovatiecampus-2035/index.html",
+    "x": 2100,
+    "y": 1200,
+    "landmark": true,
+    "color": "#8be1ff"
+  },
+  {
+    "id": "bib",
+    "naam": "AI Bibliotheek",
+    "maker": "Thijs-Jan",
+    "beschrijving": "Leren met AI",
+    "url": "projecten/ai-bibliotheek/index.html",
+    "x": 1300,
+    "y": 1250,
+    "landmark": false,
+    "color": "#9ff0a2"
+  }
+]
