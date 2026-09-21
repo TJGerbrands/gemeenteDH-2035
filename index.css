@@ -1,1 +1,231 @@
-body{margin:0;font-family:Segoe UI;background:#eef8ff}#ui{position:fixed;left:10px;top:10px;background:#fff;padding:10px;border-radius:10px}#world{width:100vw;height:100vh}
+:root {
+    --sky: #eaf7ff;
+    --sea: #6dc9ff;
+    --beach: #efdca2;
+    --dunes: #b9d28a;
+    --grass: #cfe6b5;
+
+    --road: #7f858b;
+    --bike: #d24f4f;
+
+    --shadow: rgba(0,0,0,0.15);
+    --panel: rgba(255,255,255,0.95);
+
+    --townhall: #f4c34f;
+    --library: #9ce0a3;
+    --campus: #89dfff;
+    --park: #7bc96f;
+    --art: #ff8ad8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+
+    background: var(--sky);
+
+    font-family:
+        "Segoe UI",
+        sans-serif;
+}
+
+.topbar {
+    position: fixed;
+
+    top: 16px;
+    left: 16px;
+
+    z-index: 1000;
+
+    width: 380px;
+
+    padding: 18px;
+
+    border-radius: 18px;
+
+    background: var(--panel);
+
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.15);
+}
+
+.branding h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.branding p {
+    margin-top: 6px;
+    color: #666;
+}
+
+.search-container {
+    margin-top: 14px;
+}
+
+#searchInput {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #4fa7ff;
+}
+
+.hover-card {
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 330px;
+
+    padding: 18px;
+
+    border-radius: 18px;
+
+    background: white;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.18);
+
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.hover-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hover-card p {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+#viewport {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: auto;
+
+    cursor: grab;
+}
+
+#world {
+    width: 3200px;
+    height: 1800px;
+}
+
+.sky {
+    fill: var(--sky);
+}
+
+.sea {
+    fill: var(--sea);
+}
+
+.beach {
+    fill: var(--beach);
+}
+
+.dunes {
+    fill: var(--dunes);
+}
+
+.grass {
+    fill: var(--grass);
+}
+
+.central-plaza {
+    fill: #d8d1c4;
+}
+
+.ring-road {
+    fill: none;
+
+    stroke: var(--road);
+    stroke-width: 40;
+}
+
+.road {
+    stroke: var(--road);
+    stroke-width: 36;
+
+    stroke-linecap: round;
+}
+
+.bike-path {
+    stroke: var(--bike);
+    stroke-width: 10;
+
+    stroke-linecap: round;
+
+    stroke-dasharray: 10 8;
+}
+
+.tree-trunk {
+    fill: #6f4828;
+}
+
+.tree-leaf {
+    fill: #4ba64f;
+}
+
+.isometric-shadow {
+    fill: rgba(0,0,0,.12);
+}
+
+.object {
+    cursor: pointer;
+}
+
+.object:hover {
+    filter: brightness(1.06);
+}
+
+.highlight {
+    filter:
+        drop-shadow(0 0 15px #ffff00)
+        brightness(1.15);
+}
+
+.townhall-main {
+    fill: var(--townhall);
+}
+
+.library-main {
+    fill: var(--library);
+}
+
+.campus-main {
+    fill: var(--campus);
+}
+
+.park-main {
+    fill: var(--park);
+}
+
+.art-main {
+    fill: var(--art);
+}
