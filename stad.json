@@ -48,9 +48,53 @@
     "type": "art",
     "naam": "Kunstplein van de Toekomst",
     "maker": "Fatima",
-    "beschrijving": "Een interactieve installatie waarin kunst en AI samenkomen.",
+    "beschrijving": "Interactieve kunstinstallatie.",
     "url": "projecten/kunstplein/index.html",
     "x": 2300,
     "y": 900
+  },
+
+  {
+    "id": "brug-2035",
+    "type": "bridge",
+    "naam": "Slimme Brug",
+    "maker": "Gemeente",
+    "beschrijving": "Verbindt twee stadsdelen.",
+    "url": "#",
+    "x": 1850,
+    "y": 780
+  },
+
+  {
+    "id": "observatietoren",
+    "type": "tower",
+    "naam": "ToekomsToren",
+    "maker": "Festival",
+    "beschrijving": "Uitkijktoren over de gemeente.",
+    "url": "#",
+    "x": 2450,
+    "y": 1180
+  },
+
+  {
+    "id": "marktplein",
+    "type": "market",
+    "naam": "Marktplein",
+    "maker": "Festival",
+    "beschrijving": "Ontmoeten, ontdekken en presenteren.",
+    "url": "#",
+    "x": 1360,
+    "y": 760
+  },
+
+  {
+    "id": "sportpark",
+    "type": "sport",
+    "naam": "Sportpark 2035",
+    "maker": "Gemeente",
+    "beschrijving": "Sport en gezondheid.",
+    "url": "#",
+    "x": 2550,
+    "y": 1280
   }
 ]
