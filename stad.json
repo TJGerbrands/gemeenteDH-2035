@@ -1,1 +1,56 @@
-[{"id": "stadhuis"}]
+[
+  {
+    "id": "stadhuis-2035",
+    "type": "townhall",
+    "naam": "Stadhuis van 2035",
+    "maker": "Gemeente van 2035",
+    "beschrijving": "Het centrale hart van de gemeente. Hier woont de AI-burgemeester.",
+    "url": "projecten/stadhuis-2035/index.html",
+    "x": 1600,
+    "y": 980
+  },
+
+  {
+    "id": "innovatiecampus",
+    "type": "campus",
+    "naam": "Innovatiecampus 2035",
+    "maker": "Thijs-Jan",
+    "beschrijving": "Experimenteren met AI, innovatie en digitale dienstverlening.",
+    "url": "projecten/innovatiecampus/index.html",
+    "x": 2050,
+    "y": 1180
+  },
+
+  {
+    "id": "ai-bibliotheek",
+    "type": "library",
+    "naam": "AI Bibliotheek",
+    "maker": "Thijs-Jan",
+    "beschrijving": "Een plek waar inwoners spelenderwijs leren over AI.",
+    "url": "projecten/ai-bibliotheek/index.html",
+    "x": 1100,
+    "y": 1180
+  },
+
+  {
+    "id": "biodiversiteitspark",
+    "type": "park",
+    "naam": "Biodiversiteitspark",
+    "maker": "Sanne",
+    "beschrijving": "Ontdek dieren, planten en biodiversiteit.",
+    "url": "projecten/biodiversiteitspark/index.html",
+    "x": 850,
+    "y": 900
+  },
+
+  {
+    "id": "kunstplein",
+    "type": "art",
+    "naam": "Kunstplein van de Toekomst",
+    "maker": "Fatima",
+    "beschrijving": "Een interactieve installatie waarin kunst en AI samenkomen.",
+    "url": "projecten/kunstplein/index.html",
+    "x": 2300,
+    "y": 900
+  }
+]
