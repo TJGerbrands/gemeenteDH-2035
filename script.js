@@ -115,7 +115,6 @@ function buildObjectSvg(object) {
 
             return `
                 <g>
-
                     <ellipse
                         class="isometric-shadow"
                         cx="0"
@@ -145,7 +144,6 @@ function buildObjectSvg(object) {
                         points="-82,-40 0,-90 82,-40"
                         fill="#ffd86c"
                     />
-
                 </g>
             `;
 
@@ -153,7 +151,6 @@ function buildObjectSvg(object) {
 
             return `
                 <g>
-
                     <ellipse
                         class="isometric-shadow"
                         cx="0"
@@ -175,7 +172,6 @@ function buildObjectSvg(object) {
                         points="-60,-35 0,-70 60,-35"
                         fill="#c8f0c9"
                     />
-
                 </g>
             `;
 
@@ -183,7 +179,6 @@ function buildObjectSvg(object) {
 
             return `
                 <g>
-
                     <ellipse
                         class="isometric-shadow"
                         cx="0"
@@ -209,7 +204,6 @@ function buildObjectSvg(object) {
                         height="50"
                         rx="4"
                     />
-
                 </g>
             `;
 
@@ -217,7 +211,6 @@ function buildObjectSvg(object) {
 
             return `
                 <g>
-
                     <circle
                         class="park-main"
                         cx="0"
@@ -238,7 +231,6 @@ function buildObjectSvg(object) {
                         cy="10"
                         r="12"
                     />
-
                 </g>
             `;
 
@@ -246,7 +238,6 @@ function buildObjectSvg(object) {
 
             return `
                 <g>
-
                     <ellipse
                         class="isometric-shadow"
                         cx="0"
@@ -259,137 +250,130 @@ function buildObjectSvg(object) {
                         class="art-main"
                         points="0,-50 40,0 0,50 -40,0"
                     />
-
                 </g>
             `;
-    
+
         case "bridge":
 
-    return `
-        <g>
+            return `
+                <g>
+                    <ellipse
+                        class="isometric-shadow"
+                        cx="0"
+                        cy="20"
+                        rx="80"
+                        ry="12"
+                    />
 
-            <ellipse
-                class="isometric-shadow"
-                cx="0"
-                cy="20"
-                rx="80"
-                ry="12"
-            />
+                    <rect
+                        class="bridge-main"
+                        x="-70"
+                        y="-8"
+                        width="140"
+                        height="18"
+                        rx="8"
+                    />
 
-            <rect
-                class="bridge-main"
-                x="-70"
-                y="-8"
-                width="140"
-                height="18"
-                rx="8"
-            />
+                    <rect
+                        class="bridge-main"
+                        x="-50"
+                        y="-30"
+                        width="12"
+                        height="30"
+                    />
 
-            <rect
-                class="bridge-main"
-                x="-50"
-                y="-30"
-                width="12"
-                height="30"
-            />
+                    <rect
+                        class="bridge-main"
+                        x="38"
+                        y="-30"
+                        width="12"
+                        height="30"
+                    />
+                </g>
+            `;
 
-            <rect
-                class="bridge-main"
-                x="38"
-                y="-30"
-                width="12"
-                height="30"
-            />
+        case "tower":
 
-        </g>
-    `;
-case "tower":
+            return `
+                <g>
+                    <ellipse
+                        class="isometric-shadow"
+                        cx="0"
+                        cy="65"
+                        rx="35"
+                        ry="12"
+                    />
 
-    return `
-        <g>
+                    <rect
+                        class="tower-main"
+                        x="-15"
+                        y="-90"
+                        width="30"
+                        height="150"
+                    />
 
-            <ellipse
-                class="isometric-shadow"
-                cx="0"
-                cy="65"
-                rx="35"
-                ry="12"
-            />
+                    <circle
+                        class="tower-main"
+                        cx="0"
+                        cy="-95"
+                        r="28"
+                    />
+                </g>
+            `;
 
-            <rect
-                class="tower-main"
-                x="-15"
-                y="-90"
-                width="30"
-                height="150"
-            />
+        case "market":
 
-            <circle
-                class="tower-main"
-                cx="0"
-                cy="-95"
-                r="28"
-            />
+            return `
+                <g>
+                    <rect
+                        class="market-main"
+                        x="-65"
+                        y="-30"
+                        width="40"
+                        height="30"
+                    />
 
-        </g>
-    `;
+                    <rect
+                        class="market-main"
+                        x="-10"
+                        y="-20"
+                        width="40"
+                        height="25"
+                    />
 
-            case "market":
+                    <rect
+                        class="market-main"
+                        x="40"
+                        y="-35"
+                        width="35"
+                        height="28"
+                    />
+                </g>
+            `;
 
-    return `
-        <g>
+        case "sport":
 
-            <rect
-                class="market-main"
-                x="-65"
-                y="-30"
-                width="40"
-                height="30"
-            />
+            return `
+                <g>
+                    <rect
+                        class="sport-main"
+                        x="-70"
+                        y="-40"
+                        width="140"
+                        height="80"
+                        rx="8"
+                    />
 
-            <rect
-                class="market-main"
-                x="-10"
-                y="-20"
-                width="40"
-                height="25"
-            />
+                    <rect
+                        fill="#ffffff"
+                        x="-50"
+                        y="-2"
+                        width="100"
+                        height="4"
+                    />
+                </g>
+            `;
 
-            <rect
-                class="market-main"
-                x="40"
-                y="-35"
-                width="35"
-                height="28"
-            />
-
-        </g>
-    `;
-
-            case "sport":
-
-    return `
-        <g>
-
-            <rect
-                class="sport-main"
-                x="-70"
-                y="-40"
-                width="140"
-                height="80"
-                rx="8"
-            />
-
-            <rect
-                fill="#ffffff"
-                x="-50"
-                y="-2"
-                width="100"
-                height="4"
-            />
-
-        </g>
-    `;
         default:
 
             return `
