@@ -262,6 +262,46 @@ function buildObjectSvg(object) {
 
                 </g>
             `;
+case "bridge":
+
+    return `
+        <g>
+
+            <ellipse
+                class="isometric-shadow"
+                cx="0"
+                cy="20"
+                rx="80"
+                ry="12"
+            />
+
+            <rect
+                class="bridge-main"
+                x="-70"
+                y="-8"
+                width="140"
+                height="18"
+                rx="8"
+            />
+
+            <rect
+                class="bridge-main"
+                x="-50"
+                y="-30"
+                width="12"
+                height="30"
+            />
+
+            <rect
+                class="bridge-main"
+                x="38"
+                y="-30"
+                width="12"
+                height="30"
+            />
+
+        </g>
+    `;
 
         default:
 
