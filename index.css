@@ -229,3 +229,27 @@ body {
 .art-main {
     fill: var(--art);
 }
+
+.bridge-main {
+    fill: #a6a6a6;
+}
+
+.tower-main {
+    fill: #7cb4ff;
+}
+
+.market-main {
+    fill: #f8b04f;
+}
+
+.sport-main {
+    fill: #6fd2c0;
+}
+
+.street-lamp {
+    fill: #444;
+}
+
+.bench {
+    fill: #8a684a;
+}
